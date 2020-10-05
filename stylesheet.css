@@ -108,3 +108,78 @@ body, html {
 .navlink:focus {
     outline: none;
 }
+
+/* CREATE.HTML */
+
+/* FORM */
+
+.form {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 10fr 3fr 10fr 3fr 10fr 3fr 3fr;
+    padding: 2% 2%;
+}
+
+.formitem {
+    margin-bottom: 1vh;
+}
+
+.button {
+    font-size: 1rem;
+}
+
+/* PROFILE.HTML */
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 2%;
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+.meitems {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.about {
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.about>p {
+    text-align: justify;
+}
+
+.profitags {
+    text-align: center;
+}
+
+.profitaglist {
+    list-style: none;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+
+

@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Patua+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Quizz Game</title>
 </head>
 <header>
@@ -12,63 +13,92 @@
 <body>
     <main>
         <section class="questioncard closed">
-            <h2 class="questionheader">Question:</h2>
-            <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-            <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-            <button class="solution">Show Answer</button>
-            <ul class="taglist">
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-            </ul>
+            <div class="cardwrapper">
+              <div class="cardheader">
+                <h2 class="questionheader">Question:</h2>
+                <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+              </div>
+              <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+              <button class="solution">Show Answer</button>
+              <ul class="taglist">
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+              </ul>
+            </div>
         </section>
         <section class="questioncard open">
-            <h2 class="questionheader">Question:</h2>
-            <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-            <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-            <button class="solution">Minimize Answer</button>
-            <h3 class="answerheader">Answer:</h3>
-            <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
-            <ul class="taglist">
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-            </ul>
+            <div class="cardwrapper">
+              <div class="cardheader">
+                <h2 class="questionheader">Question:</h2>
+                <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+              </div>
+              <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+              <button class="solution">Minimize Answer</button>
+              <h3 class="answerheader">Answer:</h3>
+              <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
+              <ul class="taglist">
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+              </ul>
+            </div>
         </section>
-        <section class="questioncard">
-            <h2 class="questionheader">Question:</h2>
-            <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-            <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-            <button class="solution">Show Answer</button>
-            <ul class="taglist">
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-                <li class="tags">Lorem</li>
-            </ul>
+        <section class="questioncard closed">
+            <div class="cardwrapper">
+              <div class="cardheader">
+                <h2 class="questionheader">Question:</h2>
+                <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+              </div>
+              <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+              <button class="solution">Show Answer</button>
+              <ul class="taglist">
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+              </ul>
+            </div>
+        </section>
+        <section class="questioncard closed">
+            <div class="cardwrapper">
+              <div class="cardheader">
+                <h2 class="questionheader">Question:</h2>
+                <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+              </div>
+              <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+              <button class="solution">Show Answer</button>
+              <ul class="taglist">
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+                  <li class="tags">Lorem</li>
+              </ul>
+            </div>
         </section>
     </main>
 </body>
-<footer>
+<footer class="footer"> 
     <nav>
-        <ul>
-            <li>
-                <a href="index.html"><img src="./static/home.png" alt="Home"></a>
-              </li>
-              <li>
-                 <a href="bookmarks.html"><img src="./static/bookmark.png" alt="Bookmark"></a>
-              </li>
-              <li>
-                <a href="create.html"><img src="./static/create.png" alt="Create"></a>
-              </li>
-              <li>
-                  <a href="profile.html"><img src="./static/profile.png" alt="Profile"></a>
-              </li>
+        <ul class="navwrap"> 
+            <li class=navlist">
+              <a class="navlink" href="index.html"><img class="navicon" src="./static/home.png" alt="Home"></a>
+            </li>
+            <li class=navlist">
+               <a class="navlink" href="bookmarks.html"><img class="navicon" src="./static/bookmark.png" alt="Bookmark"></a>
+            </li>
+            <li class=navlist">
+              <a class="navlink" href="create.html"><img class="navicon" src="./static/create.png" alt="Create"></a>
+            </li>
+            <li class=navlist">
+                <a class="navlink" href="profile.html"><img class="navicon" src="./static/profile.png" alt="Profile"></a>
+            </li>
         </ul>
     </nav>
   </footer>

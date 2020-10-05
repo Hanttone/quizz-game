@@ -4,25 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Patua+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="stylesheet.css">
     <title>Quizz Game</title>
 </head>
 <header>
     <h1 class="title">Profile</h1>
 </header>
 <body>
-    <main>
+    <main class="margin">
         <section class="me">
-                <img src="" alt="Image of you">
-            <h2>Your Name</h2>
+            <img class="meitems" src="" alt="Image of you">
+            <h2 class="meitems">Your Name</h2>
         </section>
         <section class="about">
             <h3>About</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas beatae iste excepturi cupiditate nulla ipsum ullam. Numquam ducimus veniam fugiat?</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero doloremque odit omnis, ad impedit.</p>
         </section>
-        <section class="tags">
-            <h3 class="tags">Tags</h3>
-            <ul class="taglist">
+        <section class="profiletags">
+            <h3 class="profitags">Tags</h3>
+            <ul class="profitaglist">
                 <li class="tags">Lorem</li>
                 <li class="tags">Lorem</li>
                 <li class="tags">Lorem</li>
@@ -31,23 +32,23 @@
             </ul>
         </section>
         <button class="logout">Logout</button>
-    </main>
+    </main class="margin">
 </body>
-<footer>
+<footer class="footer"> 
     <nav>
-        <ul>
-            <li>
-                <a href="index.html"><img src="./static/home.png" alt="Home"></a>
-              </li>
-              <li>
-                 <a href="bookmarks.html"><img src="./static/bookmark.png" alt="Bookmark"></a>
-              </li>
-              <li>
-                <a href="create.html"><img src="./static/create.png" alt="Create"></a>
-              </li>
-              <li>
-                  <a href="profile.html"><img src="./static/profile.png" alt="Profile"></a>
-              </li>
+        <ul class="navwrap"> 
+            <li class=navlist">
+              <a class="navlink" href="index.html"><img class="navicon" src="./static/home.png" alt="Home"></a>
+            </li>
+            <li class=navlist">
+               <a class="navlink" href="bookmarks.html"><img class="navicon" src="./static/bookmark.png" alt="Bookmark"></a>
+            </li>
+            <li class=navlist">
+              <a class="navlink" href="create.html"><img class="navicon" src="./static/create.png" alt="Create"></a>
+            </li>
+            <li class=navlist">
+                <a class="navlink" href="profile.html"><img class="navicon" src="./static/profile.png" alt="Profile"></a>
+            </li>
         </ul>
     </nav>
   </footer>
