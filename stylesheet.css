@@ -249,11 +249,36 @@ body, html {
 
     .navwrap {
         width: 50%;
-        margin: 5vh 25%;
+        margin: 8vh 25%;
     }
 
     .navicon {
         width: 30%;
+    }
+
+    .form {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+    .label {
+        font-size: 1.2rem;
+    }
+
+    .button {
+        font-size: 1.2rem;
+        height: 5vh;
+    }
+
+    .margin {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .about>p {
+        padding-right: 5%;
+        padding-left: 5%;
     }
 }
 
