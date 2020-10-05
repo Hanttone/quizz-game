@@ -199,7 +199,63 @@ body, html {
     height: 5vh;
 }
 
-@media (min-width: 1000)
+@media (min-width: 1000px) {
+
+    .title {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-size: 3rem;
+    }
+
+    .questioncard {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .cardheader {
+        margin-bottom: 5vh;
+    }
+
+    .questionheader {
+        padding-right: 20%;
+        font-size: 1.8rem;
+    }
+
+    .bookmarkicon {
+        width: 20%;
+    }
+
+    .questiontext {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 8vh;
+        line-height: 1.5;
+    }
+
+    .solution {
+        margin-bottom: 3vh;
+    }
+
+    .taglist {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .answer {
+        margin-bottom: 5vh;
+    }
+
+    .navwrap {
+        width: 50%;
+        margin: 5vh 25%;
+    }
+
+    .navicon {
+        width: 30%;
+    }
+}
 
 
 
