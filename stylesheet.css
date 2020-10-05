@@ -35,14 +35,24 @@ body, html {
     text-align: center;
 }
 
+.cardheader {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .questionheader {
     font-family: 'Patua One', cursive;
     font-size: 1.5rem;
+    justify-self: start;
+    align-self: start;
+    margin: 0 auto;
+    margin-right: 50%;
 }
 
 .bookmarkicon {
-    width: 10%;
+    width: 35%;
     height: auto;
+    justify-self: end;
 }
 
 .questiontext {
@@ -57,6 +67,18 @@ body, html {
 
 .taglist {
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.tags {
+    border: solid;
+    border-color: black;
+    padding: 2% 2%;
+    margin-bottom: 2vh;
 }
 
 /* NAVIGATION */
