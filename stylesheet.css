@@ -6,7 +6,7 @@
 body, html {
     margin: 0 auto;
     padding: 0 auto;
-    background-image: url("./static/background2.jpg");
+    background-image: url("./static/background3.jpg");
     background-repeat: none;
     background-attachment: fixed;
     background-size: auto 100vh;
@@ -85,6 +85,7 @@ body, html {
 
 .footer {
     position: sticky;
+    text-align: center;
 }
 
 .navwrap {
@@ -107,6 +108,12 @@ body, html {
 
 .navlink:focus {
     outline: none;
+}
+
+.shoutout {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: darkgrey;
 }
 
 /* CREATE.HTML */
@@ -180,6 +187,19 @@ body, html {
     padding-left: 0;
     margin-bottom: 0;
 }
+
+.btn {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.logout {
+    font-size: 1rem;
+    height: 5vh;
+}
+
+@media (min-width: 1000)
 
 
 
