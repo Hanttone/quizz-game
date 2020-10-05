@@ -1,28 +1,38 @@
 * {
     box-sizing: border-box;
     font-family: 'Maven Pro', sans-serif;
-    font-weight:
 }
 
 body, html {
     margin: 0 auto;
     padding: 0 auto;
+    background-image: url("./static/background2.jpg");
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: auto 100vh;
 }
 
 .title {
     font-family: 'Patua One', cursive;
     width: 100%;
     text-align: center;
+    position: sticky;
+    color: black;
 }
 
 /* QUESTIONCARDS */
 
 .questioncard {
     width: 90%;
-    margin-left: 5%;
-    margin-right: 5%;
     border-style: solid;
     border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.cardwrapper {
+    margin: 2vh 3%;
+    text-align: center;
 }
 
 .questionheader {
@@ -35,15 +45,42 @@ body, html {
     height: auto;
 }
 
-/* NAVIGATION */
-
-.navicon {
-    width: 10%;
-    height: auto;
+.questiontext {
+    text-align: justify;
 }
 
-.navlist {
+.solution {
+    height: 5vh;
+    width: auto;
+    font-size: 1rem;
+}
+
+.taglist {
     list-style: none;
+}
+
+/* NAVIGATION */
+
+.footer {
+    position: sticky;
+}
+
+.navwrap {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.navlink {
+    display: grid;
+}
+
+.navicon {
+    width: 40%;
+    height: auto;
+    justify-self: center;
 }
 
 .navlink:focus {
