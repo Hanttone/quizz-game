@@ -16,8 +16,8 @@ body, html {
     font-family: 'Patua One', cursive;
     width: 100%;
     text-align: center;
-    position: sticky;
     color: black;
+    top: 0;
 }
 
 /* QUESTIONCARDS */
@@ -84,7 +84,6 @@ body, html {
 /* NAVIGATION */
 
 .footer {
-    position: sticky;
     text-align: center;
 }
 
@@ -145,6 +144,7 @@ body, html {
 .me {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     padding: 2% 2%;
     height: 20vh;
     margin-top: 5vh;
@@ -155,6 +155,13 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.meimg {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    background-color: rgba(204, 150, 34, 0.5);
 }
 
 .margin {
@@ -199,7 +206,7 @@ body, html {
     height: 5vh;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
 
     .title {
         margin-top: 15vh;
@@ -279,6 +286,75 @@ body, html {
     .about>p {
         padding-right: 5%;
         padding-left: 5%;
+    }
+}
+
+@media (orientation: landscape) {
+
+    .title {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-size: 2rem;
+    }
+
+    .bookmarkicon {
+        width: 17%;
+    }
+
+    .questionheader {
+        padding-right: 20%;
+    }
+
+    .cardheader {
+        margin-bottom: 8vh;
+    }
+
+    .questiontext {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 8vh;
+        line-height: 1.5;
+    }
+
+    .solution {
+        font-size: 1.2rem;
+        height: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .answer {
+        margin-bottom: 8vh;
+    }
+
+    .answerheader {
+        font-size: 1.4rem;
+    }
+
+    .navwrap {
+        margin-top: 10vh;
+    }
+
+    .navicon {
+        width: 30%;
+    }
+
+    .button {
+        font-size: 1.2rem;
+        height: 10vh;
+    }
+
+    .me {
+        height: 30vh;
+        margin-bottom: 5vh;
+    }   
+
+    .meimg {
+        width: 23%;
+    }
+    
+    .logout {
+        font-size: 1.2rem;
+        height: 10vh;
     }
 }
 
