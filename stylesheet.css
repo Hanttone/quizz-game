@@ -12,15 +12,13 @@ body, html {
     background-size: auto 100vh;
 }
 
-.title {
+.gametitle__title {
     font-family: 'Patua One', cursive;
     width: 100%;
     text-align: center;
     color: black;
     top: 0;
 }
-
-/* QUESTIONCARDS */
 
 .questioncard {
     width: 90%;
@@ -30,17 +28,17 @@ body, html {
     background-color: rgba(255, 255, 255, 0.95);
 }
 
-.cardwrapper {
+.questioncard__cardwrapper {
     margin: 2vh 3%;
     text-align: center;
 }
 
-.cardheader {
+.questioncard__cardheader {
     display: grid;
     grid-template-columns: 2fr 1fr;
 }
 
-.questionheader {
+.questioncard__questionheader {
     font-family: 'Patua One', cursive;
     font-size: 1.5rem;
     justify-self: start;
@@ -49,23 +47,23 @@ body, html {
     margin-right: 50%;
 }
 
-.bookmarkicon {
+.questioncard__bookmarkicon {
     width: 35%;
     height: auto;
     justify-self: end;
 }
 
-.questiontext {
+.questioncard__questiontext {
     text-align: justify;
 }
 
-.solution {
+.questioncard__solution {
     height: 5vh;
     width: auto;
     font-size: 1rem;
 }
 
-.taglist {
+.questioncard__taglist {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -74,20 +72,18 @@ body, html {
     margin-bottom: 0;
 }
 
-.tags {
+.questioncard__tags {
     border: solid;
     border-color: black;
     padding: 2% 2%;
     margin-bottom: 2vh;
 }
 
-/* NAVIGATION */
-
 .footer {
     text-align: center;
 }
 
-.navwrap {
+.footer__navwrap {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -95,17 +91,17 @@ body, html {
     padding-right: 5%;
 }
 
-.navlink {
+.footer__navlink {
     display: grid;
 }
 
-.navicon {
+.footer__navicon {
     width: 40%;
     height: auto;
     justify-self: center;
 }
 
-.navlink:focus {
+.footer__navlink:focus {
     outline: none;
 }
 
@@ -115,9 +111,6 @@ body, html {
     color: darkgrey;
 }
 
-/* CREATE.HTML */
-
-/* FORM */
 
 .form {
     width: 90%;
