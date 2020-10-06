@@ -182,13 +182,17 @@ body, html {
 }
 
 .profiletags__list {
-    list-style: none;
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     padding-left: 0;
     margin-bottom: 0;
+}
+
+.profiletags__tag {
+    list-style: none;
+    border: solid;
+    border-color: black;
 }
 
 .button {
@@ -204,10 +208,13 @@ body, html {
 
 @media (min-width: 1050px) {
 
-    .title {
+    .gametitle__title, 
+    .create__title, 
+    .create__title, 
+    .profile__title  {
         margin-top: 15vh;
         margin-bottom: 10vh;
-        font-size: 3rem;
+        font-size: 4rem;
     }
 
     .questioncard {
@@ -216,61 +223,62 @@ body, html {
         margin-left: 25%;
     }
 
-    .cardheader {
+    .questioncard__cardheader {
         margin-bottom: 5vh;
     }
 
-    .questionheader {
+    .questioncard__questionheader {
         padding-right: 20%;
         font-size: 1.8rem;
     }
 
-    .bookmarkicon {
+    .questioncard__bookmarkicon {
         width: 20%;
     }
 
-    .questiontext {
+    .questioncard__questiontext {
         padding-right: 5%;
         padding-left: 5%;
         margin-bottom: 8vh;
         line-height: 1.5;
     }
 
-    .solution {
+    .questioncard__solution {
+        height: 5vh;
         margin-bottom: 3vh;
     }
 
-    .taglist {
+    .questioncard__taglist {
         width: 80%;
         margin-right: 10%;
         margin-left: 10%;
     }
 
-    .answer {
+    .questioncard__answer {
         margin-bottom: 5vh;
     }
 
-    .navwrap {
+    .footer__navwrap {
         width: 50%;
         margin: 8vh 25%;
     }
 
-    .navicon {
+    .footer__navicon {
         width: 30%;
     }
 
-    .form {
+    .createform {
         width: 50%;
         margin-right: 25%;
         margin-left: 25%;
     }
-    .label {
+
+    .createform__formitem--label {
         font-size: 1.2rem;
     }
 
-    .button {
+    .createform__formitem--button {
         font-size: 1.2rem;
-        height: 5vh;
     }
 
     .margin {
@@ -279,7 +287,16 @@ body, html {
         margin-left: 25%;
     }
 
-    .about>p {
+    .me {
+        height: 50vh;
+    }
+
+    .me__meitems--img {
+        height: 90%;
+        width: auto;
+    }
+
+    .about__text {
         padding-right: 5%;
         padding-left: 5%;
     }
@@ -287,54 +304,57 @@ body, html {
 
 @media (orientation: landscape) {
 
-    .title {
+    .gametitle__title, 
+    .create__title, 
+    .create__title, 
+    .profile__title  {
         margin-top: 15vh;
         margin-bottom: 10vh;
         font-size: 2rem;
     }
 
-    .bookmarkicon {
+    .questioncard__bookmarkicon {
         width: 17%;
     }
 
-    .questionheader {
+    .questioncard__questionheader {
         padding-right: 20%;
     }
 
-    .cardheader {
+    .questioncard__cardheader {
         margin-bottom: 8vh;
     }
 
-    .questiontext {
+    .questioncard__questiontext {
         padding-right: 5%;
         padding-left: 5%;
         margin-bottom: 8vh;
         line-height: 1.5;
     }
 
-    .solution {
+    .questioncard__solution {
         font-size: 1.2rem;
         height: 10vh;
         margin-bottom: 5vh;
     }
 
-    .answer {
+    .questioncard__answer {
         margin-bottom: 8vh;
     }
 
-    .answerheader {
+    .questioncard__answerheader {
         font-size: 1.4rem;
     }
 
-    .navwrap {
+    .footer__navwrap {
         margin-top: 10vh;
     }
 
-    .navicon {
+    .footer__navicon {
         width: 30%;
     }
 
-    .button {
+    .createform__formitem--button {
         font-size: 1.2rem;
         height: 10vh;
     }
@@ -344,11 +364,15 @@ body, html {
         margin-bottom: 5vh;
     }   
 
-    .meimg {
+    .me__meitems--img {
         width: 23%;
     }
+
+    .profiletags__tag {
+        padding: 1% 1%;
+    }
     
-    .logout {
+    .button__logout {
         font-size: 1.2rem;
         height: 10vh;
     }
