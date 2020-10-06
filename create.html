@@ -12,32 +12,36 @@
 </header>
 <body>
     <main>
-        <form class="form" action="">
-            <label class="label formitem" for="question">Please enter a question:</label>
-            <input class="input formitem" id="question" type="text" name="question">
-            <label class="label formitem" for="answer">Please enter the answer:</label>
-            <input class="input formitem" id="answer" type="text" name="answer">
-            <label class="label formitem" for="tags">Please enter helpful tags:</label>
-            <input class="input formitem" id="tags" type="text" name="tags">
-            <button class="button formitem" type="clear">Clear</button>
-            <button class="button formitem" type="submit">Submit</button>
+        <form class="createform" action="">
+            <label class="createform__formitem" for="question">Please enter a question:</label>
+            <input class="createform__formitem" id="question" type="text" name="question">
+            <label class="createform__formitem" for="answer">Please enter the answer:</label>
+            <input class="createform__formitem" id="answer" type="text" name="answer">
+            <label class="createform__formitem" for="tags">Please enter helpful tags:</label>
+            <input class="createform__formitem" id="tags" type="text" name="tags">
+            <button class="createform__formitem--button" type="clear">Clear</button>
+            <button class="createform__formitem--button" type="submit">Submit</button>
         </form>
     </main>
 </body>
 <footer class="footer"> 
     <nav>
-        <ul class="navwrap"> 
-            <li class=navlist">
-              <a class="navlink" href="index.html"><img class="navicon" src="./static/home.png" alt="Home"></a>
+        <ul class="footer__navwrap"> 
+            <li class="footer__navlist">
+              <a class="footer__navlink" href="index.html">
+                <img class="footer__navicon" src="./static/home.png" alt="Home"></a>
             </li>
-            <li class=navlist">
-               <a class="navlink" href="bookmarks.html"><img class="navicon" src="./static/bookmark.png" alt="Bookmark"></a>
+            <li class="footer__navlist">
+               <a class="footer__navlink" href="bookmarks.html">
+                 <img class="footer__navicon" src="./static/bookmark.png" alt="Bookmark"></a>
             </li>
-            <li class=navlist">
-              <a class="navlink" href="create.html"><img class="navicon" src="./static/create.png" alt="Create"></a>
+            <li class="footer__navlist">
+              <a class="footer__navlink" href="create.html">
+                <img class="footer__navicon" src="./static/create.png" alt="Create"></a>
             </li>
-            <li class=navlist">
-                <a class="navlink" href="profile.html"><img class="navicon" src="./static/profile.png" alt="Profile"></a>
+            <li class="footer__navlist">
+                <a class="footer__navlink" href="profile.html">
+                  <img class="footer__navicon" src="./static/profile.png" alt="Profile"></a>
             </li>
         </ul>
     </nav>
