@@ -7,114 +7,67 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>Quizz Game</title>
 </head>
-<header>
-    <h1 class="title">History-Quizz-App</h1>
+<header class="gametitle">
+    <h1 class="gametitle__title">History-Quizz-App</h1>
 </header>
 <body>
   <main>
-    <section class="questioncard closed">
-      <div class="cardwrapper">
-        <div class="cardheader">
-          <h2 class="questionheader">Question:</h2>
-          <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+    <section class="questioncard">
+      <div class="questioncard__cardwrapper">
+        <div class="questioncard__cardheader">
+          <h2 class="questioncard_questionheader">Question:</h2>
+          <img src="./static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
         </div>
-        <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-        <button class="solution">Show Answer</button>
-        <ul class="taglist">
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
+        <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+        <button class="questioncard__solution">Show Answer</button>
+        <ul class="questioncard__taglist">
+            <li class="questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
         </ul>
       </div>
     </section>
-    <section class="questioncard open">
-      <div class="cardwrapper">
-        <div class="cardheader">
-          <h2 class="questionheader">Question:</h2>
-          <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
+    <section class="questioncard">
+      <div class="questioncard__cardwrapper">
+        <div class="questioncard__cardheader">
+          <h2 class="questioncard__questionheader">Question:</h2>
+          <img src="./static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
         </div>
-        <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-        <button class="solution">Minimize Answer</button>
-        <h3 class="answerheader">Answer:</h3>
-        <p class="answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
-        <ul class="taglist">
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
+        <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+        <button class=questioncard__solution">Minimize Answer</button>
+        <h3 class=questioncard__answerheader">Answer:</h3>
+        <p class="questioncard__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
+        <ul class=questioncard__taglist">
+            <li class=questioncard__tags">Lorem</li>
+            <li class=questioncard__tags">Lorem</li>
+            <li class=questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
+            <li class="questioncard__tags">Lorem</li>
         </ul>
       </div>
     </section>
-    <section class="questioncard closed">
-      <div class="cardwrapper">
-        <div class="cardheader">
-          <h2 class="questionheader">Question:</h2>
-          <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-        </div>
-        <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-        <button class="solution">Show Answer</button>
-        <ul class="taglist">
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-        </ul>
-      </div>
-    </section>
-    <section class="questioncard closed">
-      <div class="cardwrapper">
-        <div class="cardheader">
-          <h2 class="questionheader">Question:</h2>
-          <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-        </div>
-        <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-        <button class="solution">Show Answer</button>
-        <ul class="taglist">
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-            <li class="tags">Lorem</li>
-        </ul>
-      </div>
-  </section>
-  <section class="questioncard closed">
-    <div class="cardwrapper">
-      <div class="cardheader">
-        <h2 class="questionheader">Question:</h2>
-        <img src="./static/bookmark.png" alt="Bookmark" class="bookmarkicon">
-      </div>
-      <p class="questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
-      <button class="solution">Show Answer</button>
-      <ul class="taglist">
-          <li class="tags">Lorem</li>
-          <li class="tags">Lorem</li>
-          <li class="tags">Lorem</li>
-          <li class="tags">Lorem</li>
-          <li class="tags">Lorem</li>
-      </ul>
-    </div>
-</section>
   </main>
 </body>
 <footer class="footer"> 
   <nav>
-      <ul class="navwrap"> 
-          <li class=navlist">
-            <a class="navlink" href="index.html"><img class="navicon" src="./static/home.png" alt="Home"></a>
+      <ul class="footer__navwrap"> 
+          <li class="footer__navlist">
+            <a class="footer__navlink" href="index.html">
+              <img class="footer__navicon" src="./static/home.png" alt="Home"></a>
           </li>
-          <li class=navlist">
-             <a class="navlink" href="bookmarks.html"><img class="navicon" src="./static/bookmark.png" alt="Bookmark"></a>
+          <li class="footer__navlist">
+             <a class="footer__navlink" href="bookmarks.html">
+               <img class="footer__navicon" src="./static/bookmark.png" alt="Bookmark"></a>
           </li>
-          <li class=navlist">
-            <a class="navlink" href="create.html"><img class="navicon" src="./static/create.png" alt="Create"></a>
+          <li class="footer__navlist">
+            <a class="footer__navlink" href="create.html">
+              <img class="footer__navicon" src="./static/create.png" alt="Create"></a>
           </li>
-          <li class=navlist">
-              <a class="navlink" href="profile.html"><img class="navicon" src="./static/profile.png" alt="Profile"></a>
+          <li class="footer__navlist">
+              <a class="footer__navlink" href="profile.html">
+                <img class="footer__navicon" src="./static/profile.png" alt="Profile"></a>
           </li>
       </ul>
   </nav>
