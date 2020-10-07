@@ -1,5 +1,8 @@
 .footer {
     text-align: center;
+    position: fixed;
+    bottom: 0;
+    background-color: hsla(36, 100%, 95%, 1);
 }
 
 .footer__navwrap {
