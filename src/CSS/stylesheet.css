@@ -101,27 +101,6 @@
     }
 }
 
-@media (orientation: landscape) {
-
-
-    .me {
-        height: 30vh;
-        margin-bottom: 5vh;
-    }   
-
-    .me__meitems--img {
-        width: 23%;
-    }
-
-    .profiletags__tag {
-        padding: 1% 1%;
-    }
-    
-    .button__logout {
-        font-size: 1.2rem;
-        height: 10vh;
-    }
-}
 
 
 

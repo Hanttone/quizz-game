@@ -33,4 +33,8 @@
     .footer__navicon {
         width: 22%;
     }
+
+    .footer__navwrap {
+        padding-top: 1%;
+    }
 }
