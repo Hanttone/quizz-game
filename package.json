@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Hanttone/quizz-game#readme",
   "dependencies": {
+    "base.css": "^1.0.0",
     "parcel": "^1.12.4"
   }
 }
