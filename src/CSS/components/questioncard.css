@@ -1,13 +1,12 @@
 .questioncard {
-    width: 90%;
-    box-shadow: 0px 5px 5px hsla(34, 100%, 25%, 0.8);
-    margin: 5vh 5%;
+    box-shadow: 0px 3px 5px hsla(34, 100%, 25%, 0.8);
     background-color: hsla(36, 100%, 99%, 0.9);
     border-radius: 8px;
+    padding: 2% 3%;
+    margin-top: 2vh;
 }
 
 .questioncard__cardwrapper {
-    margin: 2vh 3%;
     text-align: center;
 }
 
@@ -21,14 +20,13 @@
     font-size: 1.5rem;
     justify-self: start;
     align-self: start;
-    margin-right: 50%;
 }
 
 .questioncard__bookmarkicon {
     width: 35%;
     height: auto;
     justify-self: end;
-    padding-top: 2vh;
+    align-self: center;
 }
 
 .questioncard__questiontext {
@@ -36,12 +34,14 @@
 }
 
 .questioncard__solution {
-    height: 5vh;
-    width: auto;
     font-size: 1rem;
     border-radius: 5px;
     background-color: hsla(36, 100%, 95%, 1);
     box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
+}
+
+.questioncard__answer {
+    text-align: justify;
 }
 
 .questioncard__taglist {
@@ -49,14 +49,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 0;
-    margin-bottom: 0;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
 .questioncard__tags {
     background-color: hsla(36, 100%, 95%, 1);
     box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
     padding: 2% 2%;
-    margin-bottom: 2vh;
     border-radius: 5px;
 }

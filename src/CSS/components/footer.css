@@ -1,0 +1,25 @@
+.footer {
+    text-align: center;
+}
+
+.footer__navwrap {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer__navlink {
+    display: grid;
+}
+
+.footer__navicon {
+    width: 40%;
+    height: auto;
+    justify-self: center;
+}
+
+.footer__navlink:focus {
+    outline: none;
+}
