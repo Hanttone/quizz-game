@@ -27,6 +27,19 @@
     align-self: center;
 }
 
+@keyframes wiggle {
+    0%  { transform: rotate(-5deg); }
+    15% { transform: rotate(5deg); }
+    35% { transform: rotate(-5deg); }
+    55% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    95% { transform: rotate(5deg); }
+}
+
+.questioncard__bookmarkicon:hover {
+    animation: wiggle 1s infinite;
+}
+
 .questioncard__questiontext {
     text-align: justify;
 }

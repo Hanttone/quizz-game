@@ -18,14 +18,20 @@
     display: grid;
 }
 
+.footer__navlink:focus {
+    outline: none;
+}
+
 .footer__navicon {
     width: 40%;
     height: auto;
     justify-self: center;
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
 }
 
-.footer__navlink:focus {
-    outline: none;
+.footer__navicon:hover {
+    opacity: 0.5;
 }
 
 @media (orientation: landscape) {
