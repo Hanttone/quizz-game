@@ -1,14 +1,12 @@
 .me {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     padding: 2% 2%;
-    height: 20vh;
     margin-top: 5vh;
 }
 
 .me__meitems {
-    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,8 +20,6 @@
 }
 
 .margin {
-    width: 90%;
-    margin: 5vh 5%;
     padding: 2% 2%;
     background-color: hsla(36, 100%, 99%, 0.9);
     box-shadow: 0px 3px 5px hsla(34, 100%, 25%, 0.8);
@@ -46,7 +42,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding-left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
     margin-bottom: 0;
 }
 
@@ -55,7 +52,7 @@
     background-color: hsla(36, 100%, 95%, 1);
     box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
     padding: 2% 2%;
-    margin-bottom: 2vh;
+    margin-top: 2vh;
     border-radius: 5px;
 }
 
@@ -66,9 +63,6 @@
 }
 
 .button__logout {
-    height: 5vh;
-    width: auto;
-    font-size: 1rem;
     border-radius: 5px;
     background-color: hsla(36, 100%, 95%, 1);
     box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
