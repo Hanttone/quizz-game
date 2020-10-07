@@ -90,3 +90,11 @@
         width: 27%;
     }
 }
+
+@media (min-width: 1000px) {
+    
+    .margin {
+        margin-right: 18%;
+        margin-left: 18%;
+    }
+}

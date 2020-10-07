@@ -40,3 +40,11 @@
         padding: 3% 4%;
     }
 }
+
+@media (min-width: 1000px) {
+
+    .createform {
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+}

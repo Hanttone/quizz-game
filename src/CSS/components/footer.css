@@ -48,3 +48,14 @@
         width: 20%;
     }
 }
+
+@media (min-width: 1000px) {
+
+    .footer__navwrap {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+    .footer__navicon {
+        width: 13%;
+    }
+}
