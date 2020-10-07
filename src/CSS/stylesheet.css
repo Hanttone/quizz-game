@@ -1,5 +1,5 @@
 @import "base.css";
-@import "questioncard.css";
+@import "components/questioncard.css";
 
 .footer {
     text-align: center;

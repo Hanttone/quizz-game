@@ -2,7 +2,8 @@
     width: 90%;
     box-shadow: 0px 5px 5px hsla(34, 100%, 25%, 0.8);
     margin: 5vh 5%;
-    background-color: hsla(36, 100%, 99%, 0.9)
+    background-color: hsla(36, 100%, 99%, 0.9);
+    border-radius: 8px;
 }
 
 .questioncard__cardwrapper {
@@ -20,7 +21,6 @@
     font-size: 1.5rem;
     justify-self: start;
     align-self: start;
-    margin: 0 auto;
     margin-right: 50%;
 }
 
@@ -28,6 +28,7 @@
     width: 35%;
     height: auto;
     justify-self: end;
+    padding-top: 2vh;
 }
 
 .questioncard__questiontext {
@@ -38,6 +39,9 @@
     height: 5vh;
     width: auto;
     font-size: 1rem;
+    border-radius: 5px;
+    background-color: hsla(36, 100%, 95%, 1);
+    box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
 }
 
 .questioncard__taglist {
@@ -50,8 +54,9 @@
 }
 
 .questioncard__tags {
-    border: solid;
-    border-color: black;
+    background-color: hsla(36, 100%, 95%, 1);
+    box-shadow: 0px 1px 2px hsla(34, 100%, 25%, 0.8);
     padding: 2% 2%;
     margin-bottom: 2vh;
+    border-radius: 5px;
 }
