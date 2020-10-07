@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url("../static/background3.jpg");
+    background-attachment: fixed;
+    background-size: auto 100vh;
+}
+
+.gametitle__title, 
+.create__title, 
+.create__title, 
+.profile__title {
+    font-family: 'Patua One', cursive;
+    width: 100%;
+    text-align: center;
+    color: black;
+}
