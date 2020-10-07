@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Hanttone/quizz-game/issues"
   },
-  "homepage": "https://github.com/Hanttone/quizz-game#readme"
+  "homepage": "https://github.com/Hanttone/quizz-game#readme",
+  "dependencies": {
+    "parcel": "^1.12.4"
+  }
 }
