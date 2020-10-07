@@ -12,6 +12,7 @@
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
+    padding-top: 1%;
 }
 
 .footer__navlink {
@@ -39,8 +40,11 @@
     .footer__navicon {
         width: 22%;
     }
+}
 
-    .footer__navwrap {
-        padding-top: 1%;
+@media (min-width: 690px) {
+    
+    .footer__navicon {
+        width: 20%;
     }
 }

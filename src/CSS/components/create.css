@@ -33,3 +33,10 @@
         grid-template-rows: repeat(3, 2fr 10fr) 12vh 12vh;
     }
 }
+
+@media (min-width: 690px) {
+
+    .createform {
+        padding: 3% 4%;
+    }
+}

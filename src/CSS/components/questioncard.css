@@ -80,3 +80,14 @@
         width: 25%;
     }
 }
+
+@media (min-width: 690px) {
+
+    .questioncard__bookmarkicon {
+        width: 21%;
+    }
+
+    .questioncard {
+        padding: 3% 4%;
+    }
+}
