@@ -91,3 +91,21 @@
         padding: 3% 4%;
     }
 }
+
+@media (min-width: 1000px) {
+    
+    .wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .questioncard {
+        width: 45%;
+        padding: 2% 2%;
+    }
+
+    .questioncard__bookmarkicon {
+        width: 25%;
+    }
+}

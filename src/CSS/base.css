@@ -87,10 +87,11 @@ button {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1000px) {
 
     body, html {
         background-size: 100% auto;
+        margin-bottom: 15%;
     }
 
     main {
