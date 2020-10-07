@@ -6,8 +6,7 @@
     list-style: none;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0;
 }
 
 .footer__navlink {
