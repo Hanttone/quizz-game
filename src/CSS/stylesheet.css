@@ -103,60 +103,6 @@
 
 @media (orientation: landscape) {
 
-    .gametitle__title, 
-    .create__title, 
-    .create__title, 
-    .profile__title  {
-        margin-top: 15vh;
-        margin-bottom: 10vh;
-        font-size: 2rem;
-    }
-
-    .questioncard__bookmarkicon {
-        width: 17%;
-    }
-
-    .questioncard__questionheader {
-        padding-right: 20%;
-    }
-
-    .questioncard__cardheader {
-        margin-bottom: 8vh;
-    }
-
-    .questioncard__questiontext {
-        padding-right: 5%;
-        padding-left: 5%;
-        margin-bottom: 8vh;
-        line-height: 1.5;
-    }
-
-    .questioncard__solution {
-        font-size: 1.2rem;
-        height: 10vh;
-        margin-bottom: 5vh;
-    }
-
-    .questioncard__answer {
-        margin-bottom: 8vh;
-    }
-
-    .questioncard__answerheader {
-        font-size: 1.4rem;
-    }
-
-    .footer__navwrap {
-        margin-top: 10vh;
-    }
-
-    .footer__navicon {
-        width: 30%;
-    }
-
-    .createform__formitem--button {
-        font-size: 1.2rem;
-        height: 10vh;
-    }
 
     .me {
         height: 30vh;

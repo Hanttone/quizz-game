@@ -2,6 +2,7 @@
     box-sizing: border-box;
     font-family: 'Maven Pro', sans-serif;
     font-size: 1rem;
+    line-height: 1.2;
 }
 
 body, html {
@@ -39,4 +40,29 @@ button {
     text-decoration: none;
     font-size: 0.8rem;
     color: darkgrey;
+}
+
+@media (orientation: landscape) {
+
+    * { 
+        font-size: 1.1rem;
+    }
+
+    h1 {
+        margin-top: 10vh;
+        margin-bottom: 8vh;
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+
+    .shoutout {
+        font-size: 0.9rem;
+    }
+
+    body, html {
+        margin-bottom: 18%;
+    }
 }

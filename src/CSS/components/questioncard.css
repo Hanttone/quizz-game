@@ -56,3 +56,14 @@
     padding: 2% 2%;
     margin-top: 2vh;
 }
+
+@media (orientation: landscape) {
+
+    .questioncard {
+        margin-top: 5vh;
+    }
+    
+    .questioncard__bookmarkicon {
+        width: 25%;
+    }
+}
