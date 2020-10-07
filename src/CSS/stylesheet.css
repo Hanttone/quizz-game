@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Maven Pro', sans-serif;
+}
+
+body, html {
+    margin: 0 auto;
+    padding: 0 auto;
+    background-image: url("./static/background3.jpg");
+    background-repeat: none;
+    background-attachment: fixed;
+    background-size: auto 100vh;
+}
+
+.gametitle__title, 
+.create__title, 
+.create__title, 
+.profile__title {
+    font-family: 'Patua One', cursive;
+    width: 100%;
+    text-align: center;
+    color: black;
+    top: 0;
+}
+
+.questioncard {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.questioncard__cardwrapper {
+    margin: 2vh 3%;
+    text-align: center;
+}
+
+.questioncard__cardheader {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.questioncard__questionheader {
+    font-family: 'Patua One', cursive;
+    font-size: 1.5rem;
+    justify-self: start;
+    align-self: start;
+    margin: 0 auto;
+    margin-right: 50%;
+}
+
+.questioncard__bookmarkicon {
+    width: 35%;
+    height: auto;
+    justify-self: end;
+}
+
+.questioncard__questiontext {
+    text-align: justify;
+}
+
+.questioncard__solution {
+    height: 5vh;
+    width: auto;
+    font-size: 1rem;
+}
+
+.questioncard__taglist {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.questioncard__tags {
+    border: solid;
+    border-color: black;
+    padding: 2% 2%;
+    margin-bottom: 2vh;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer__navwrap {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.footer__navlink {
+    display: grid;
+}
+
+.footer__navicon {
+    width: 40%;
+    height: auto;
+    justify-self: center;
+}
+
+.footer__navlink:focus {
+    outline: none;
+}
+
+.shoutout {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: darkgrey;
+}
+
+.createform {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr 10fr 3fr 10fr 3fr 10fr 3fr 3fr;
+    padding: 2% 2%;
+}
+
+.createform__formitem {
+    margin-bottom: 1vh;
+}
+
+.createform__formitem--button {
+    font-size: 1rem;
+    height: 5vh;
+}
+
+/* PROFILE.HTML */
+
+.me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2% 2%;
+    height: 20vh;
+    margin-top: 5vh;
+}
+
+.me__meitems {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.me__meitems--img {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    background-color: rgba(204, 150, 34, 0.5);
+}
+
+.margin {
+    width: 90%;
+    border-style: solid;
+    border-color: black;
+    margin: 5vh 5%;
+    background-color: rgba(255, 255, 255, 0.95);
+}
+
+.about {
+    padding: 2% 2%;
+    text-align: center;
+}
+
+.about__text {
+    text-align: justify;
+}
+
+.profiletags {
+    text-align: center;
+}
+
+.profiletags__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.profiletags__tag {
+    list-style: none;
+    border: solid;
+    border-color: black;
+}
+
+.button {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.button__logout {
+    font-size: 1rem;
+    height: 5vh;
+}
+
+@media (min-width: 1050px) {
+
+    .gametitle__title, 
+    .create__title, 
+    .create__title, 
+    .profile__title  {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-size: 4rem;
+    }
+
+    .questioncard {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .questioncard__cardheader {
+        margin-bottom: 5vh;
+    }
+
+    .questioncard__questionheader {
+        padding-right: 20%;
+        font-size: 1.8rem;
+    }
+
+    .questioncard__bookmarkicon {
+        width: 20%;
+    }
+
+    .questioncard__questiontext {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 8vh;
+        line-height: 1.5;
+    }
+
+    .questioncard__solution {
+        height: 5vh;
+        margin-bottom: 3vh;
+    }
+
+    .questioncard__taglist {
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .questioncard__answer {
+        margin-bottom: 5vh;
+    }
+
+    .footer__navwrap {
+        width: 50%;
+        margin: 8vh 25%;
+    }
+
+    .footer__navicon {
+        width: 30%;
+    }
+
+    .createform {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .createform__formitem--label {
+        font-size: 1.2rem;
+    }
+
+    .createform__formitem--button {
+        font-size: 1.2rem;
+    }
+
+    .margin {
+        width: 50%;
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .me {
+        height: 50vh;
+    }
+
+    .me__meitems--img {
+        height: 90%;
+        width: auto;
+    }
+
+    .about__text {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+}
+
+@media (orientation: landscape) {
+
+    .gametitle__title, 
+    .create__title, 
+    .create__title, 
+    .profile__title  {
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        font-size: 2rem;
+    }
+
+    .questioncard__bookmarkicon {
+        width: 17%;
+    }
+
+    .questioncard__questionheader {
+        padding-right: 20%;
+    }
+
+    .questioncard__cardheader {
+        margin-bottom: 8vh;
+    }
+
+    .questioncard__questiontext {
+        padding-right: 5%;
+        padding-left: 5%;
+        margin-bottom: 8vh;
+        line-height: 1.5;
+    }
+
+    .questioncard__solution {
+        font-size: 1.2rem;
+        height: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    .questioncard__answer {
+        margin-bottom: 8vh;
+    }
+
+    .questioncard__answerheader {
+        font-size: 1.4rem;
+    }
+
+    .footer__navwrap {
+        margin-top: 10vh;
+    }
+
+    .footer__navicon {
+        width: 30%;
+    }
+
+    .createform__formitem--button {
+        font-size: 1.2rem;
+        height: 10vh;
+    }
+
+    .me {
+        height: 30vh;
+        margin-bottom: 5vh;
+    }   
+
+    .me__meitems--img {
+        width: 23%;
+    }
+
+    .profiletags__tag {
+        padding: 1% 1%;
+    }
+    
+    .button__logout {
+        font-size: 1.2rem;
+        height: 10vh;
+    }
+}
+
+
+
