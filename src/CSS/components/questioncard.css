@@ -16,8 +16,6 @@
 }
 
 .questioncard__questionheader {
-    font-family: 'Patua One', cursive;
-    font-size: 1.5rem;
     justify-self: start;
     align-self: start;
 }
