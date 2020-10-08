@@ -4,7 +4,7 @@
   "description": "Quizz App version 0.0.1",
   "main": "index.js",
   "scripts": {
-    "start": "parcel src/index.html",
+    "start": "parcel src/*.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Hanttone/quizz-game#readme",
   "dependencies": {
     "base.css": "^1.0.0",
+    "components": "^0.1.0",
     "parcel": "^1.12.4"
   }
 }
