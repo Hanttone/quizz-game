@@ -27,6 +27,11 @@
     align-self: center;
 }
 
+.questioncard__bookmarkicon--chosen {
+    background-color: red;
+}
+
+
 @keyframes wiggle {
     0%  { transform: rotate(-5deg); }
     15% { transform: rotate(5deg); }
@@ -68,6 +73,14 @@
     border-radius: 5px;
     padding: 2% 2%;
     margin-top: 2vh;
+}
+
+.questioncard__answer {
+    visibility: collapse;
+}
+
+button + .questioncard__answer--show {
+    visibility: visible;
 }
 
 @media (orientation: landscape) {
