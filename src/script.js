@@ -11,7 +11,7 @@ const profileButton = get(".footer__profile");
 
 bookmarkIcon.forEach((icon) => {
     icon.addEventListener('click', () => 
-    icon.classList.toggle("questioncard__bookmarkicon--chosen"))
+    icon.classList.toggle("questioncard__chosen"))
 });
 
 questionCard.forEach(addToggleLogic)
@@ -34,6 +34,11 @@ homeButton.addEventListener('click', () => {
     pageBook.classList.add("hidden");
     pageCreate.classList.add("hidden");
     pageProfile.classList.add("hidden");
+    homeButton.classList.add("footer__chosen");
+    bookmarkButton.classList.remove("footer__chosen");
+    createButton.classList.remove("footer__chosen");
+    profileButton.classList.remove("footer__chosen");
+
 })
 
 bookmarkButton.addEventListener('click', () => {
@@ -41,6 +46,10 @@ bookmarkButton.addEventListener('click', () => {
     pageBook.classList.remove("hidden");
     pageCreate.classList.add("hidden");
     pageProfile.classList.add("hidden");
+    homeButton.classList.remove("footer__chosen");
+    bookmarkButton.classList.add("footer__chosen");
+    createButton.classList.remove("footer__chosen");
+    profileButton.classList.remove("footer__chosen");
 })
 
 createButton.addEventListener('click', () => {
@@ -48,6 +57,10 @@ createButton.addEventListener('click', () => {
     pageBook.classList.add("hidden");
     pageCreate.classList.remove("hidden");
     pageProfile.classList.add("hidden");
+    homeButton.classList.remove("footer__chosen");
+    bookmarkButton.classList.remove("footer__chosen");
+    createButton.classList.add("footer__chosen");
+    profileButton.classList.remove("footer__chosen");
 })
 
 profileButton.addEventListener('click', () => {
@@ -55,6 +68,11 @@ profileButton.addEventListener('click', () => {
     pageBook.classList.add("hidden");
     pageCreate.classList.add("hidden");
     pageProfile.classList.remove("hidden");
+    homeButton.classList.add("footer__chosen")
+    homeButton.classList.remove("footer__chosen");
+    bookmarkButton.classList.remove("footer__chosen");
+    createButton.classList.remove("footer__chosen");
+    profileButton.classList.add("footer__chosen");
 })
 
 function getAll (selector) {

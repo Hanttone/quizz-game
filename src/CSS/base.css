@@ -48,6 +48,10 @@ button:hover {
     color: hsla(34, 100%, 25%, 0.3);
 }
 
+.hidden {
+    display: none; 
+}
+
 @media (orientation: landscape) {
 
     * { 

@@ -25,12 +25,8 @@
     height: auto;
     justify-self: end;
     align-self: center;
+    opacity: 0.5;
 }
-
-.questioncard__bookmarkicon--chosen {
-    background-color: red;
-}
-
 
 @keyframes wiggle {
     0%  { transform: rotate(-5deg); }
@@ -75,9 +71,10 @@
     margin-top: 2vh;
 }
 
-.hidden {
-    display: none; 
+.questioncard__chosen {
+    opacity: 1;
 }
+
 
 @media (orientation: landscape) {
 

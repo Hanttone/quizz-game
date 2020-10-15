@@ -27,12 +27,16 @@
     width: 40%;
     height: auto;
     justify-self: center;
-    opacity: 1;
+    opacity: 0.5;
     transition: opacity 0.5s ease-out;
 }
 
 .footer__navicon:hover {
-    opacity: 0.5;
+    opacity: 1;
+}
+
+.footer__chosen {
+    opacity: 1;
 }
 
 @media (orientation: landscape) {
