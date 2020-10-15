@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&family=Patua+One&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="css/stylesheet.css">
-    
-    <title>Quizz Game</title>
+    <script type="text/javascript" src="./script.js" defer></script>
+    <title>Quizz-Game</title>
 </head>
-<header class="gametitle">
-    <h1 class="gametitle__title">History-Quizz-App</h1>
-</header>
+
 <body>
-  <main>
+
+  <!-- HOME -->
+
+  <main class="hidden" data-view="home">
+    <header class="gametitle">
+      <h1 class="gametitle__title">History-Quizz-App</h1>
+    </header>
     <div class="wrapper">
       <section class="questioncard">
         <div class="questioncard__cardwrapper">
@@ -88,29 +92,158 @@
       </section>
     </div>
   </main>
-  <script type="text/javascript" src="./script.js"></script>
+
+  <!-- BOOKMARK -->
+
+  <main class="hidden" data-view="bookmark">
+    <header class="create">
+      <h1 class="create__title">Bookmarks</h1>
+  </header>
+    <div class="wrapper">
+      <section class="questioncard">
+          <div class="questioncard__cardwrapper">
+            <div class="questioncard__cardheader">
+              <h2 class="questioncard__questionheader">Question:</h2>
+              <img src="static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
+            </div>
+            <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+            <button class="questioncard__solution">Show Answer</button>
+            <ul class="questioncard__taglist">
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+            </ul>
+          </div>
+      </section>
+      <section class="questioncard">
+          <div class="questioncard__cardwrapper">
+            <div class="questioncard__cardheader">
+              <h2 class="questioncard__questionheader">Question:</h2>
+              <img src="static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
+            </div>
+            <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+            <button class="questioncard__solution">Minimize Answer</button>
+            <h3 class="questioncard__answerheader">Answer:</h3>
+            <p class="questioncard__answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, velit.</p>
+            <ul class="questioncard__taglist">
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+                <li class="questioncard__tags">Lorem</li>
+            </ul>
+          </div>
+      </section>
+      <section class="questioncard">
+        <div class="questioncard__cardwrapper">
+          <div class="questioncard__cardheader">
+            <h2 class="questioncard__questionheader">Question:</h2>
+            <img src="static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
+          </div>
+          <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+          <button class="questioncard__solution">Show Answer</button>
+          <ul class="questioncard__taglist">
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+          </ul>
+        </div>
+      </section>
+      <section class="questioncard">
+        <div class="questioncard__cardwrapper">
+          <div class="questioncard__cardheader">
+            <h2 class="questioncard__questionheader">Question:</h2>
+            <img src="static/bookmark.png" alt="Bookmark" class="questioncard__bookmarkicon">
+          </div>
+          <p class="questioncard__questiontext">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam ex doloremque nobis eveniet, mollitia omnis error molestias. Cumque, nam tenetur?</p>
+          <button class="questioncard__solution">Show Answer</button>
+          <ul class="questioncard__taglist">
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+              <li class="questioncard__tags">Lorem</li>
+          </ul>
+        </div>
+      </section>     
+    </div>
+  </main>
+
+  <!-- CREATE -->
+
+  <main class="hidden" data-view="create">
+    <header class="create">
+        <h1 class="create__title">Create your Question</h1>
+    </header>
+    <form class="createform" action="">
+        <label class="createform__formitem--label" for="question">Please enter a question:</label>
+        <textarea name="question" id="question" cols="30" rows="10" class="createform__formitem"></textarea>
+        <label class="createform__formitem--label" for="answer">Please enter the answer:</label>
+        <textarea name="answer" id="answer" cols="30" rows="10" class="createform__formitem"></textarea>
+        <label class="createform__formitem--label" for="tags">Please enter helpful tags:</label>
+        <textarea name="tags" id="tags" cols="30" rows="10" class="createform__formitem"></textarea>
+        <button class="createform__formitem--button" type="clear">Clear</button>
+        <button class="createform__formitem--button" type="submit">Submit</button>
+    </form>
+</main>
+
+<!-- PROFILE -->
+
+<main class="margin hidden" data-view="profile">
+  <header class="profile">
+      <h1 class="profile__title">Profile</h1>
+  </header>
+  <section class="me">
+      <img class="me__meitems--img" src="static/profile.png" alt="Image of you">
+      <h2 class="me__meitems">Your Name</h2>
+  </section>
+  <section class="about">
+      <h3 class="about__header">About</h3>
+      <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas beatae iste excepturi cupiditate nulla ipsum ullam. Numquam ducimus veniam fugiat?</p>
+      <p class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste libero doloremque odit omnis, ad impedit.</p>
+  </section>
+  <section class="profiletags">
+      <h3 class="profiletags__tags">Tags</h3>
+      <ul class="profiletags__list">
+          <li class="profiletags__tag">Lorem</li>
+          <li class="profiletags__tag">Lorem</li>
+          <li class="profiletags__tag">Lorem</li>
+          <li class="profiletags__tag">Lorem</li>
+          <li class="profiletags__tag">Lorem</li>
+      </ul>
+  </section>
+  <section class="button">
+      <button class="button__logout">Logout</button>
+  </section>
+</main>
+
+  
 </body>
 <footer class="footer"> 
   <nav>
       <ul class="footer__navwrap"> 
           <li class="footer__navlist">
-            <a class="footer__navlink" href="index.html">
-              <img class="footer__navicon" src="static/home.png" alt="Home">
+            <a class="footer__navlink" href="#"">
+              <img class="footer__navicon footer__home" src="static/home.png" alt="Home">
             </a>
           </li>
           <li class="footer__navlist">
-             <a class="footer__navlink" href="bookmarks.html">
-               <img class="footer__navicon" src="static/bookmark.png" alt="Bookmark">
+             <a class="footer__navlink" href="#">
+               <img class="footer__navicon footer__bookmark" src="static/bookmark.png" alt="Bookmark">
               </a>
           </li>
           <li class="footer__navlist">
-            <a class="footer__navlink" href="create.html">
-              <img class="footer__navicon" src="static/create.png" alt="Create">
+            <a class="footer__navlink" href="#">
+              <img class="footer__navicon footer__create" src="static/create.png" alt="Create">
             </a>
           </li>
           <li class="footer__navlist">
-              <a class="footer__navlink" href="profile.html">
-                <img class="footer__navicon" src="static/profile.png" alt="Profile">
+              <a class="footer__navlink" href="#">
+                <img class="footer__navicon footer__profile" src="static/profile.png" alt="Profile">
               </a>
           </li>
       </ul>
