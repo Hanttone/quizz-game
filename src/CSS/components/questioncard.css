@@ -75,12 +75,8 @@
     margin-top: 2vh;
 }
 
-.questioncard__answer {
-    visibility: collapse;
-}
-
-button + .questioncard__answer--show {
-    visibility: visible;
+.hidden {
+    display: none; 
 }
 
 @media (orientation: landscape) {
